@@ -7,8 +7,18 @@ diccionario = {
 #keys nos devuelve las claves de un diccionario
 claves = diccionario.keys()
 
-#acceder mediante una llave
-retorna = diccionario.get("nombre")
+#obtener un elemento con get()
+nombre = diccionario.get("nombre")
 
-print(retorna)
+#elmininar todos los elementos del diccionario
+diccionario.clear()
+
+#eliminando un elemento del diccionario se puede mas de un elemento
+diccionario.pop("nombre")
+
+#obteniendo un elemento dic_items iterable
+diccionario_iterable = diccionario.items()
+
+
+print(nombre)
 

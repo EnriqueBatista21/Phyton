@@ -1,6 +1,7 @@
 #pedir un numero al usuario
 numero = int(input("dame el numero: "))
 res2 = numero * 6
+
 #convertir a entero
 resultado = int(numero) * 2
 
